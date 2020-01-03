@@ -17,6 +17,11 @@ body {
   background-size: cover;
 }
 
+.course-feedback {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
