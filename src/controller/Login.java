@@ -32,6 +32,7 @@ public class Login extends HttpServlet{
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String email = req.getParameter("email");
         String password = req.getParameter("password");
+        System.out.println(email + " " + password);
 
         Utente utente = DBManager.getInstance().login(email, password);
         if (utente != null) {
